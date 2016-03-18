@@ -10,5 +10,17 @@
  */
 angular
   .module('januszeMotoryzacjiApp', [
-    'ngAnimate'
-  ]);
+    'ngAnimate',
+    'ngRoute'
+  ])
+  .config(function ($routeProvider, $httpProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl',
+        controllerAs: 'main'
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+  });
