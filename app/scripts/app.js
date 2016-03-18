@@ -27,6 +27,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/province', {
+        templateUrl: 'views/province.html',
+        controller: 'ProvinceCtrl',
+        controllerAs: 'province'
+      })
       .otherwise({
         redirectTo: '/'
       });
