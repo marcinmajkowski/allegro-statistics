@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>JANUSZEmotoryzacji</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -39,9 +40,9 @@
         <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#/province">Średnia cena pojazdu w województwie</a></li>
-            <li><a href="#/province">Liczba pojazdów w województwie</a></li>
-            <li><a href="#/province">Przebieg w zależności od roku produkcji</a></li>
+            <li class="active"><a href="#/province">Średnia cena pojazdu</a></li>
+            <li><a href="#/province">Liczba pojazdów</a></li>
+            <li><a href="#/province">Przebieg a rok produkcji</a></li>
             <!--<li><a ng-href="#/">Wykresy</a></li>-->
           </ul>
         </div>
@@ -51,7 +52,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-4 col-md-3 sidebar" ng-controller="CategoryCtrl">
-          <h4>podkategorie <a href ng-click="back()" title="przejdź poziom wyżej" ng-show="!topLevel"><span class="glyphicon glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a></h4>
+          <h4>podkategorie <button type="button" ng-click="back()" title="przejdź poziom wyżej" ng-disabled="topLevel" class="btn btn-default btn-xs"><span class="glyphicon glyphicon glyphicon-chevron-up" aria-hidden="true"></span></button></h4>
           <ul class="nav nav-sidebar">
             <li ng-repeat="category in categories"><a href ng-click="enter($index)">{{category.name}}</a></li>
           </ul>

@@ -17,6 +17,7 @@ angular.module('januszeMotoryzacjiApp')
           var provinceElement = angular.element(path);
           provinceElement.attr('province', '');
           provinceElement.attr('dummy-data', 'dummyData');
+          provinceElement.attr('hover-province', 'hoverProvince');
           $compile(provinceElement)(scope);
         });
       }

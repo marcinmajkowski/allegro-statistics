@@ -11,15 +11,22 @@ angular.module('januszeMotoryzacjiApp')
     return {
       restrict: 'A',
       scope: {
-        dummyData: "="
+        dummyData: '=',
+        hoverProvince: '='
       },
       link: function (scope, element, attrs) {
         scope.elementId = element.attr("id");
         scope.provinceClick = function () {
           alert(scope.dummyData[scope.elementId].value);
         };
+        scope.provinceMouseOver = function () {
+          scope.hoverProvince = scope.elementId;
+          element[0].parentNode.appendChild(element[0]);
+        };
         element.attr('ng-click', 'provinceClick()');
         element.attr('ng-attr-fill', '{{dummyData[elementId].value | mapColour}}');
+        element.attr('ng-mouseover', 'provinceMouseOver()');
+        element.attr('ng-class', '{active:hoverProvince==elementId}');
         element.removeAttr("province");
         $compile(element)(scope);
       }

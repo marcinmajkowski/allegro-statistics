@@ -35,5 +35,10 @@ angular.module('januszeMotoryzacjiApp')
       });
       $scope.dummyData = dataTemp;
     };
+
     $scope.createDummyData();
+
+    $scope.changeHoverProvince = function (province) {
+      $scope.hoverProvince = province;
+    };
   });
