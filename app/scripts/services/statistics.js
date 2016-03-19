@@ -12,9 +12,18 @@ angular.module('januszeMotoryzacjiApp')
     var service = {};
 
     service.types = [
-      'Średnia cena pojazdu',
-      'Liczba pojazdów',
-      'Przebieg a rok produkcji'
+      {
+        name: 'Średnia cena pojazdu',
+        url: '#/province'
+      },
+      {
+        name: 'Liczba pojazdów',
+        url: '#/province'
+      },
+      {
+        name: 'Przebieg a rok produkcji',
+        url: '#/mileageByProductionYear'
+      }
     ];
 
     service.current = "";

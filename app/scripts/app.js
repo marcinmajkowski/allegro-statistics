@@ -13,7 +13,8 @@ angular
     'ngAnimate',
     'ngResource',
     'ngRoute',
-    'ngSanitize'
+    'ngSanitize',
+    'chart.js'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -31,6 +32,11 @@ angular
         templateUrl: 'views/province.html',
         controller: 'ProvinceCtrl',
         controllerAs: 'province'
+      })
+      .when('/mileageByProductionYear', {
+        templateUrl: 'views/mileagebyproductionyear.html',
+        controller: 'MileagebyproductionyearCtrl',
+        controllerAs: 'mileageByProductionYear'
       })
       .otherwise({
         redirectTo: '/'
