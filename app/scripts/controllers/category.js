@@ -15,10 +15,13 @@ angular.module('januszeMotoryzacjiApp')
     var history = {};
 
     $scope.enter = function(index) {
+      history.name = category.current;
       history = {
         history: history,
-        categories: $scope.categories
+        categories: $scope.categories,
+        name: $scope.categories[index].name
       };
+      category.current = $scope.categories[index].name;
       $scope.categories = $scope.categories[index].subcategories;
       $scope.topLevel = history.history === undefined;
     };
@@ -26,6 +29,7 @@ angular.module('januszeMotoryzacjiApp')
     $scope.back = function() {
       $scope.categories = history.categories;
       history = history.history;
+      category.current = history.name;
       $scope.topLevel = history.history === undefined;
     };
   });

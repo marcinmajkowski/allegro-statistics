@@ -9,7 +9,13 @@
  */
 angular.module('januszeMotoryzacjiApp')
   .service('category', function ($resource) {
-    return $resource('http://localhost:8080/stat/:categoryId', {}, {
+    var currentCategory = "Osobowe";
+
+    var service = $resource('http://localhost:8080/stat/:categoryId', {}, {
       query: {method:'GET', params:{categoryId:'categories'}, isArray:true}
     });
+
+    service.current = currentCategory;
+
+    return service;
   });
