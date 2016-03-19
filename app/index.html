@@ -39,9 +39,10 @@
         <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#/">Home</a></li>
-            <li><a ng-href="#/province">Province</a></li>
-            <li><a ng-href="#/">Contact</a></li>
+            <li class="active"><a href="#/province">Średnia cena pojazdu w województwie</a></li>
+            <li><a href="#/province">Liczba pojazdów w województwie</a></li>
+            <li><a href="#/province">Przebieg w zależności od roku produkcji</a></li>
+            <!--<li><a ng-href="#/">Wykresy</a></li>-->
           </ul>
         </div>
       </div>
@@ -50,19 +51,16 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
+          <h4>podkategorie <a href="#/" title="przejdź poziom wyżej"><span class="glyphicon glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a></h4>
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#/">Overview</a></li>
-            <li><a href="#/">Reports</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="#/">Reports</a></li>
-            <li><a href="#/">Reports</a></li>
-            <li><a href="#/">Reports</a></li>
+            <li><a href="#/">Autobusy</a></li>
+            <li><a href="#/">Ciężarowe (pow. 3.5 t)</a></li>
+            <li><a href="#/">Dostawcze (do 3.5 t)</a></li>
+            <li><a href="#/">Osobowe</a></li>
+            <li><a href="#/">Zabytkowe</a></li>
           </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <div ng-view=""></div>
-        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" ng-view></div>
       </div>
     </div>
 
