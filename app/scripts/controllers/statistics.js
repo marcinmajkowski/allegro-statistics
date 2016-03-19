@@ -10,4 +10,8 @@
 angular.module('januszeMotoryzacjiApp')
   .controller('StatisticsCtrl', function ($scope, statistics) {
     $scope.statistics = statistics;
+
+    $scope.choose = function (type) {
+      statistics.current = type;
+    };
   });

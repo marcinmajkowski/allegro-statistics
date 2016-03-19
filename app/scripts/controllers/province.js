@@ -8,7 +8,7 @@
  * Controller of the januszeMotoryzacjiApp
  */
 angular.module('januszeMotoryzacjiApp')
-  .controller('ProvinceCtrl', function ($scope, category) {
+  .controller('ProvinceCtrl', function ($scope, category, statistics) {
     var provinces = [
       'dolnoslaskie',
       'kujawsko-pomorskie',
@@ -29,6 +29,8 @@ angular.module('januszeMotoryzacjiApp')
     ];
     
     $scope.category = category;
+
+    $scope.statistics = statistics;
 
     $scope.createDummyData = function () {
       var dataTemp = {};

@@ -17,6 +17,8 @@ angular.module('januszeMotoryzacjiApp')
       'Przebieg a rok produkcji'
     ];
 
+    service.current = "";
+
     return service;
     // AngularJS will instantiate a singleton by calling "new" on this function
   });

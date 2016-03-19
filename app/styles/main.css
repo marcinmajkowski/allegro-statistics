@@ -5,6 +5,10 @@
   padding: 0.2em 0;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   padding: 0;
   background: #111111 url('../images/passat.jpg') no-repeat center center fixed;
@@ -103,9 +107,9 @@ svg .province:hover, .province.active {
 }
 
 .provincelist {
-  -webkit-column-count: 5; /* Chrome, Safari, Opera */
-  -moz-column-count: 5; /* Firefox */
-  column-count: 5;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
 }
 
 .provincelist > div {
