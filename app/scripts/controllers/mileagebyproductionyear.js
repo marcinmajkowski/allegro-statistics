@@ -8,7 +8,7 @@
  * Controller of the januszeMotoryzacjiApp
  */
 angular.module('januszeMotoryzacjiApp')
-  .controller('MileagebyproductionyearCtrl', function ($scope, statistics, category, mileageByProductionYear) {
+  .controller('MileagebyproductionyearCtrl', function ($scope, $location, statistics, category, mileageByProductionYear) {
     $scope.statistics = statistics;
     $scope.category = category;
 
@@ -20,7 +20,7 @@ angular.module('januszeMotoryzacjiApp')
       mileages
     ];
 
-    $scope.mileageByProductionYear = mileageByProductionYear.query({make: 'Volkswagen'}, function(data) {
+    $scope.mileageByProductionYear = mileageByProductionYear.query($location.search(), function(data) {
       angular.forEach(data, function (value, index) {
         $scope.labels.push(value.yearOfProduction);
         mileages.push(value.sumMileage / value.resultCount);
