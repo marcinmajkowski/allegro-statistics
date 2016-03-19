@@ -1,0 +1,416 @@
+[
+  {
+    "name": "Autobusy",
+    "subcategories": []
+  },
+  {
+    "name": "Ciężarowe (pow. 3.5 t)",
+    "subcategories": []
+  },
+  {
+    "name": "Dostawcze (do 3.5 t)",
+    "subcategories": []
+  },
+  {
+    "name": "Osobowe",
+    "subcategories": [
+      {
+        "name": "Acura",
+        "subcategories": []
+      },
+      {
+        "name": "Aixam",
+        "subcategories": []
+      },
+      {
+        "name": "Alfa Romeo",
+        "subcategories": []
+      },
+      {
+        "name": "Aro",
+        "subcategories": []
+      },
+      {
+        "name": "Aston Martin",
+        "subcategories": []
+      },
+      {
+        "name": "Audi",
+        "subcategories": []
+      },
+      {
+        "name": "Bentley",
+        "subcategories": []
+      },
+      {
+        "name": "BMW",
+        "subcategories": [
+          {
+            "name": "Seria 1",
+            "subcategories": []
+          },
+          {
+            "name": "Seria 2",
+            "subcategories": []
+          },
+          {
+            "name": "Seria 3",
+            "subcategories": []
+          },
+          {
+            "name": "Seria 4",
+            "subcategories": []
+          },
+          {
+            "name": "Seria 5",
+            "subcategories": []
+          },
+          {
+            "name": "Seria 6",
+            "subcategories": []
+          },
+          {
+            "name": "Seria 7",
+            "subcategories": []
+          },
+          {
+            "name": "Seria 8",
+            "subcategories": []
+          },
+          {
+            "name": "M3",
+            "subcategories": []
+          },
+          {
+            "name": "M4",
+            "subcategories": []
+          },
+          {
+            "name": "M5",
+            "subcategories": []
+          },
+          {
+            "name": "M6",
+            "subcategories": []
+          },
+          {
+            "name": "X1",
+            "subcategories": []
+          },
+          {
+            "name": "X3",
+            "subcategories": []
+          },
+          {
+            "name": "X4",
+            "subcategories": []
+          },
+          {
+            "name": "X5",
+            "subcategories": []
+          },
+          {
+            "name": "X5 M",
+            "subcategories": []
+          },
+          {
+            "name": "X6",
+            "subcategories": []
+          },
+          {
+            "name": "X6 M",
+            "subcategories": []
+          },
+          {
+            "name": "Z3",
+            "subcategories": []
+          },
+          {
+            "name": "Z4",
+            "subcategories": []
+          },
+          {
+            "name": "i3",
+            "subcategories": []
+          },
+          {
+            "name": "i8",
+            "subcategories": []
+          },
+          {
+            "name": "Pozostałe",
+            "subcategories": []
+          }
+        ]
+      },
+      {
+        "name": "Bugatti",
+        "subcategories": []
+      },
+      {
+        "name": "Buick",
+        "subcategories": []
+      },
+      {
+        "name": "Cadillac",
+        "subcategories": []
+      },
+      {
+        "name": "Chatenet",
+        "subcategories": []
+      },
+      {
+        "name": "Chevrolet",
+        "subcategories": []
+      },
+      {
+        "name": "Chrysler",
+        "subcategories": []
+      },
+      {
+        "name": "Citroen",
+        "subcategories": []
+      },
+      {
+        "name": "Dacia",
+        "subcategories": []
+      },
+      {
+        "name": "Daewoo",
+        "subcategories": []
+      },
+      {
+        "name": "Daihatsu",
+        "subcategories": []
+      },
+      {
+        "name": "Dodge",
+        "subcategories": []
+      },
+      {
+        "name": "Ferrari",
+        "subcategories": []
+      },
+      {
+        "name": "Fiat",
+        "subcategories": []
+      },
+      {
+        "name": "Ford",
+        "subcategories": []
+      },
+      {
+        "name": "Honda",
+        "subcategories": []
+      },
+      {
+        "name": "Hummer",
+        "subcategories": []
+      },
+      {
+        "name": "Hyundai",
+        "subcategories": []
+      },
+      {
+        "name": "Infiniti",
+        "subcategories": []
+      },
+      {
+        "name": "Isuzu",
+        "subcategories": []
+      },
+      {
+        "name": "Jaguar",
+        "subcategories": []
+      },
+      {
+        "name": "Jeep",
+        "subcategories": []
+      },
+      {
+        "name": "Kia",
+        "subcategories": []
+      },
+      {
+        "name": "Lamborghini",
+        "subcategories": []
+      },
+      {
+        "name": "Lancia",
+        "subcategories": []
+      },
+      {
+        "name": "Land Rover",
+        "subcategories": []
+      },
+      {
+        "name": "Lexus",
+        "subcategories": []
+      },
+      {
+        "name": "Ligier",
+        "subcategories": []
+      },
+      {
+        "name": "Lincoln",
+        "subcategories": []
+      },
+      {
+        "name": "Łada",
+        "subcategories": []
+      },
+      {
+        "name": "Maserati",
+        "subcategories": []
+      },
+      {
+        "name": "Mazda",
+        "subcategories": []
+      },
+      {
+        "name": "Mercedes-Benz",
+        "subcategories": []
+      },
+      {
+        "name": "Mercury",
+        "subcategories": []
+      },
+      {
+        "name": "MG",
+        "subcategories": []
+      },
+      {
+        "name": "Microcar",
+        "subcategories": []
+      },
+      {
+        "name": "Mini",
+        "subcategories": []
+      },
+      {
+        "name": "Mitsubishi",
+        "subcategories": []
+      },
+      {
+        "name": "Nissan",
+        "subcategories": []
+      },
+      {
+        "name": "Oldsmobile",
+        "subcategories": []
+      },
+      {
+        "name": "Opel",
+        "subcategories": []
+      },
+      {
+        "name": "Peugeot",
+        "subcategories": []
+      },
+      {
+        "name": "Plymouth",
+        "subcategories": []
+      },
+      {
+        "name": "Polonez",
+        "subcategories": []
+      },
+      {
+        "name": "Pontiac",
+        "subcategories": []
+      },
+      {
+        "name": "Porsche",
+        "subcategories": []
+      },
+      {
+        "name": "Proton",
+        "subcategories": []
+      },
+      {
+        "name": "Renault",
+        "subcategories": []
+      },
+      {
+        "name": "Rolls-Royce",
+        "subcategories": []
+      },
+      {
+        "name": "Rover",
+        "subcategories": []
+      },
+      {
+        "name": "Saab",
+        "subcategories": []
+      },
+      {
+        "name": "Seat",
+        "subcategories": []
+      },
+      {
+        "name": "Skoda",
+        "subcategories": []
+      },
+      {
+        "name": "Smart",
+        "subcategories": []
+      },
+      {
+        "name": "SsangYong",
+        "subcategories": []
+      },
+      {
+        "name": "Subaru",
+        "subcategories": []
+      },
+      {
+        "name": "Suzuki",
+        "subcategories": []
+      },
+      {
+        "name": "Tata",
+        "subcategories": []
+      },
+      {
+        "name": "Tavria",
+        "subcategories": []
+      },
+      {
+        "name": "Tesla",
+        "subcategories": []
+      },
+      {
+        "name": "Toyota",
+        "subcategories": []
+      },
+      {
+        "name": "Trabant",
+        "subcategories": []
+      },
+      {
+        "name": "UAZ",
+        "subcategories": []
+      },
+      {
+        "name": "Volkswagen",
+        "subcategories": []
+      },
+      {
+        "name": "Volvo",
+        "subcategories": []
+      },
+      {
+        "name": "Wartburg",
+        "subcategories": []
+      },
+      {
+        "name": "Pozostałe",
+        "subcategories": []
+      }
+    ]
+  },
+  {
+    "name": "Zabytkowe",
+    "subcategories": []
+  }
+]
