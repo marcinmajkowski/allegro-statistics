@@ -28,7 +28,12 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
-      .when('/province', {
+      .when('/averagePrice', {
+        templateUrl: 'views/province.html',
+        controller: 'ProvinceCtrl',
+        controllerAs: 'province'
+      })
+      .when('/count', {
         templateUrl: 'views/province.html',
         controller: 'ProvinceCtrl',
         controllerAs: 'province'

@@ -14,11 +14,11 @@ angular.module('januszeMotoryzacjiApp')
     service.types = [
       {
         name: 'Średnia cena pojazdu',
-        url: '#/province'
+        url: '#/averagePrice'
       },
       {
         name: 'Liczba pojazdów',
-        url: '#/province'
+        url: '#/count'
       },
       {
         name: 'Przebieg a rok produkcji',
