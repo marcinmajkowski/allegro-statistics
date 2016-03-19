@@ -7,12 +7,18 @@
  * # mapOfPoland
  */
 angular.module('januszeMotoryzacjiApp')
-  .directive('mapOfPoland', function () {
+  .directive('mapOfPoland', function ($compile) {
     return {
-      templateUrl: 'images/mapofpoland.svg',
       restrict: 'A',
-      link: function postLink() {
-        
+      templateUrl: 'images/mapofpoland.svg',
+      link: function (scope, element, attrs) {
+        var provinces = element[0].querySelectorAll('.province');
+        angular.forEach(provinces, function (path, key) {
+          var provinceElement = angular.element(path);
+          provinceElement.attr('province', '');
+          provinceElement.attr('dummy-data', 'dummyData');
+          $compile(provinceElement)(scope);
+        });
       }
     };
   });

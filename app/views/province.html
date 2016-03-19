@@ -1,1 +1,10 @@
 <div map-of-poland></div>
+<p>
+  <button ng-click="createDummyData()" class="btn btn-block btn-default">Create Dummy Data</button>
+</p>
+<div class="provincelist">
+  <div ng-repeat="(key, province) in dummyData">
+    <div>{{key}}</div>
+    <div>{{province.value | number}}</div>
+  </div>
+</div>

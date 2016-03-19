@@ -96,3 +96,18 @@ svg .province:hover, .province.active {
   stroke-width: 4;
   stroke: #000;
 }
+
+.provincelist {
+  -webkit-column-count: 5; /* Chrome, Safari, Opera */
+  -moz-column-count: 5; /* Firefox */
+  column-count: 5;
+}
+.provincelist > div {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+.provincelist > div > div {
+  display: inline-block;
+  width: 48%;
+}
