@@ -16,8 +16,4 @@ describe('Controller: StatisticsCtrl', function () {
       // place here mocked dependencies
     });
   }));
-
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(StatisticsCtrl.awesomeThings.length).toBe(3);
-  });
 });

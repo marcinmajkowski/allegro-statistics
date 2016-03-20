@@ -10,10 +10,4 @@ describe('Filter: mapColour', function () {
   beforeEach(inject(function ($filter) {
     mapColour = $filter('mapColour');
   }));
-
-  it('should return the input prefixed with "mapColour filter:"', function () {
-    var text = 'angularjs';
-    expect(mapColour(text)).toBe('mapColour filter: ' + text);
-  });
-
 });

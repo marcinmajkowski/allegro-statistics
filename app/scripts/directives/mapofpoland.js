@@ -11,9 +11,9 @@ angular.module('statystykiAllegroApp')
     return {
       restrict: 'A',
       templateUrl: 'images/mapofpoland.svg',
-      link: function (scope, element, attrs) {
+      link: function (scope, element) {
         var provinces = element[0].querySelectorAll('.province');
-        angular.forEach(provinces, function (path, key) {
+        angular.forEach(provinces, function (path) {
           var provinceElement = angular.element(path);
           provinceElement.attr('province', '');
           provinceElement.attr('dummy-data', 'dummyData');

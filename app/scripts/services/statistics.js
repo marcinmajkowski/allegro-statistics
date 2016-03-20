@@ -26,7 +26,7 @@ angular.module('statystykiAllegroApp')
       }
     ];
 
-    service.current = "";
+    service.current = '';
 
     return service;
     // AngularJS will instantiate a singleton by calling "new" on this function

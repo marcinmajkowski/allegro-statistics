@@ -34,7 +34,7 @@ angular.module('statystykiAllegroApp')
 
     $scope.createDummyData = function () {
       var dataTemp = {};
-      angular.forEach(provinces, function (province, key) {
+      angular.forEach(provinces, function (province) {
         dataTemp[province] = {value: Math.random()};
       });
       $scope.dummyData = dataTemp;

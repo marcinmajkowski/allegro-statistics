@@ -9,8 +9,6 @@
  */
 angular.module('statystykiAllegroApp')
   .service('category', function ($resource, $location) {
-    var currentCategory = "Osobowe";
-
     var service = $resource('api/:categoryId.json', {}, {
       query: {method:'GET', params:{categoryId:'categories'}, isArray:true}
     });

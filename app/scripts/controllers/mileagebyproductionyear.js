@@ -21,7 +21,7 @@ angular.module('statystykiAllegroApp')
     ];
 
     $scope.mileageByProductionYear = mileageByProductionYear.query($location.search(), function(data) {
-      angular.forEach(data, function (value, index) {
+      angular.forEach(data, function (value) {
         $scope.labels.push(value.yearOfProduction);
         mileages.push(value.sumMileage / value.resultCount);
       });

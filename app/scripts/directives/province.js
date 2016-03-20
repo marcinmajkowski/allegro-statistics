@@ -14,10 +14,10 @@ angular.module('statystykiAllegroApp')
         dummyData: '=',
         hoverProvince: '='
       },
-      link: function (scope, element, attrs) {
-        scope.elementId = element.attr("id");
+      link: function (scope, element) {
+        scope.elementId = element.attr('id');
         scope.provinceClick = function () {
-          alert(scope.dummyData[scope.elementId].value);
+          window.alert(scope.dummyData[scope.elementId].value);
         };
         scope.provinceMouseOver = function () {
           scope.hoverProvince = scope.elementId;
@@ -27,7 +27,7 @@ angular.module('statystykiAllegroApp')
         element.attr('ng-attr-fill', '{{dummyData[elementId].value | mapColour}}');
         element.attr('ng-mouseover', 'provinceMouseOver()');
         element.attr('ng-class', '{active:hoverProvince==elementId}');
-        element.removeAttr("province");
+        element.removeAttr('province');
         $compile(element)(scope);
       }
     };
