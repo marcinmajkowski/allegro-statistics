@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name januszeMotoryzacjiApp.statistics
+ * @name statystykiAllegroApp.statistics
  * @description
  * # statistics
- * Service in the januszeMotoryzacjiApp.
+ * Service in the statystykiAllegroApp.
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .service('statistics', function () {
     var service = {};
 

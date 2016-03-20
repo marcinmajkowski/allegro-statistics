@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name januszeMotoryzacjiApp.directive:province
+ * @name statystykiAllegroApp.directive:province
  * @description
  * # province
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .directive('province', function ($compile) {
     return {
       restrict: 'A',

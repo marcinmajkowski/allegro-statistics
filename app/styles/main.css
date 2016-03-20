@@ -11,11 +11,6 @@ html {
 
 body {
   padding: 0;
-  background: #111111 url('../images/passat.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

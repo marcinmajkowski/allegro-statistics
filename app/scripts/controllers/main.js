@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name januszeMotoryzacjiApp.controller:MainCtrl
+ * @name statystykiAllegroApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the januszeMotoryzacjiApp
+ * Controller of the statystykiAllegroApp
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

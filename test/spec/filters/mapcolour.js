@@ -3,7 +3,7 @@
 describe('Filter: mapColour', function () {
 
   // load the filter's module
-  beforeEach(module('januszeMotoryzacjiApp'));
+  beforeEach(module('statystykiAllegroApp'));
 
   // initialize a new instance of the filter before each test
   var mapColour;

@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name januszeMotoryzacjiApp
+ * @name statystykiAllegroApp
  * @description
- * # januszeMotoryzacjiApp
+ * # statystykiAllegroApp
  *
  * Main module of the application.
  */
 angular
-  .module('januszeMotoryzacjiApp', [
+  .module('statystykiAllegroApp', [
     'ngAnimate',
     'ngResource',
     'ngRoute',

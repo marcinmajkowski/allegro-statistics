@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc filter
- * @name januszeMotoryzacjiApp.filter:mapColour
+ * @name statystykiAllegroApp.filter:mapColour
  * @function
  * @description
  * # mapColour
- * Filter in the januszeMotoryzacjiApp.
+ * Filter in the statystykiAllegroApp.
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .filter('mapColour', function () {
     return function (input) {
       var l = {

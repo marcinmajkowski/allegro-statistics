@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name januszeMotoryzacjiApp.controller:CategoryCtrl
+ * @name statystykiAllegroApp.controller:CategoryCtrl
  * @description
  * # CategoryCtrl
- * Controller of the januszeMotoryzacjiApp
+ * Controller of the statystykiAllegroApp
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .controller('CategoryCtrl', function ($scope, category) {
     $scope.categories = category.query();
     $scope.topLevel = true;

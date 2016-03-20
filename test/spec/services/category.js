@@ -3,7 +3,7 @@
 describe('Service: category', function () {
 
   // load the service's module
-  beforeEach(module('januszeMotoryzacjiApp'));
+  beforeEach(module('statystykiAllegroApp'));
 
   // instantiate service
   var category;

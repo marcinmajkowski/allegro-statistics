@@ -3,7 +3,7 @@
 describe('Directive: mapOfPoland', function () {
 
   // load the directive's module
-  beforeEach(module('januszeMotoryzacjiApp'));
+  beforeEach(module('statystykiAllegroApp'));
 
   // var element,
   //   scope;

@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name januszeMotoryzacjiApp.controller:StatisticsCtrl
+ * @name statystykiAllegroApp.controller:StatisticsCtrl
  * @description
  * # StatisticsCtrl
- * Controller of the januszeMotoryzacjiApp
+ * Controller of the statystykiAllegroApp
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .controller('StatisticsCtrl', function ($scope, statistics) {
     $scope.statistics = statistics;
 

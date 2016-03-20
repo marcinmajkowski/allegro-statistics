@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name januszeMotoryzacjiApp.controller:ProvinceCtrl
+ * @name statystykiAllegroApp.controller:ProvinceCtrl
  * @description
  * # ProvinceCtrl
- * Controller of the januszeMotoryzacjiApp
+ * Controller of the statystykiAllegroApp
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .controller('ProvinceCtrl', function ($scope, category, statistics) {
     var provinces = [
       'dolnoslaskie',
@@ -27,7 +27,7 @@ angular.module('januszeMotoryzacjiApp')
       'wielkopolskie',
       'zachodniopomorskie'
     ];
-    
+
     $scope.category = category;
 
     $scope.statistics = statistics;

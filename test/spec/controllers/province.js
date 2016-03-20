@@ -3,7 +3,7 @@
 describe('Controller: ProvinceCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('januszeMotoryzacjiApp'));
+  beforeEach(module('statystykiAllegroApp'));
 
   var ProvinceCtrl,
     scope;

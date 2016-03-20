@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name januszeMotoryzacjiApp.directive:mapOfPoland
+ * @name statystykiAllegroApp.directive:mapOfPoland
  * @description
  * # mapOfPoland
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .directive('mapOfPoland', function ($compile) {
     return {
       restrict: 'A',

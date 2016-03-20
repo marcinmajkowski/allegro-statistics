@@ -3,7 +3,7 @@
 describe('Controller: CategoryCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('januszeMotoryzacjiApp'));
+  beforeEach(module('statystykiAllegroApp'));
 
   var CategoryCtrl,
     scope;

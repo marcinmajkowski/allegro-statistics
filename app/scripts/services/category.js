@@ -2,16 +2,16 @@
 
 /**
  * @ngdoc service
- * @name januszeMotoryzacjiApp.category
+ * @name statystykiAllegroApp.category
  * @description
  * # category
- * Service in the januszeMotoryzacjiApp.
+ * Service in the statystykiAllegroApp.
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .service('category', function ($resource, $location) {
     var currentCategory = "Osobowe";
 
-    var service = $resource('http://localhost:8080/stat/:categoryId', {}, {
+    var service = $resource('api/:categoryId.json', {}, {
       query: {method:'GET', params:{categoryId:'categories'}, isArray:true}
     });
 

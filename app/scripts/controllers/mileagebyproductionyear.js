@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name januszeMotoryzacjiApp.controller:MileagebyproductionyearCtrl
+ * @name statystykiAllegroApp.controller:MileagebyproductionyearCtrl
  * @description
  * # MileagebyproductionyearCtrl
- * Controller of the januszeMotoryzacjiApp
+ * Controller of the statystykiAllegroApp
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .controller('MileagebyproductionyearCtrl', function ($scope, $location, statistics, category, mileageByProductionYear) {
     $scope.statistics = statistics;
     $scope.category = category;

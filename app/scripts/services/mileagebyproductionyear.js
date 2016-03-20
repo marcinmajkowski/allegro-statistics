@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc service
- * @name januszeMotoryzacjiApp.mileageByProductionYear
+ * @name statystykiAllegroApp.mileageByProductionYear
  * @description
  * # mileageByProductionYear
- * Service in the januszeMotoryzacjiApp.
+ * Service in the statystykiAllegroApp.
  */
-angular.module('januszeMotoryzacjiApp')
+angular.module('statystykiAllegroApp')
   .service('mileageByProductionYear', function ($resource) {
-    return $resource('http://localhost:8080/stat/mileageByProductionYear', {}, {
+    return $resource('api/mileageByProductionYear.json', {}, {
       query: {method:'GET', params:{}, isArray:true}
     });
   });
